@@ -22,6 +22,7 @@ like IT so every chunk must be in a separated file if you want to iterate it.
         <date>2003-06-30</date>
         <state>beta</state>
         <notes>Check http://www.llucax.hn.org/desarrollo/bife/ for details.</notes>
+        <provides type="class" name="HTML_Template_HIT"/>
         <filelist>
             <!-- PHP -->
             <file role="php">HTML/Template/HIT.php</file>
