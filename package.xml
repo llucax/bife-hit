@@ -3,9 +3,9 @@
 <package version="1.0">
     <name>HTML_Template_HIT</name>
     <summary>Hooks vs IT Template Engine</summary>
-    <description>HIT is a simple, ultra fast template engine. It's based on
-a personal experiment called Hooks and IT Templates. It doesn't support blocks
-like IT so every chunk must be in a separated file if you want to iterate it.
+    <description>HIT is a simple, fast template engine. It's based ona a personal
+experiment called Hooks and IT Templates. It doesn't support blocks like IT
+so every chunk must be in a separated file if you want to iterate it.
     </description>
     <license>GPL</license>
     <maintainers>
@@ -21,7 +21,7 @@ like IT so every chunk must be in a separated file if you want to iterate it.
         <version>1.0.0beta1</version>
         <date>2003-06-30</date>
         <state>beta</state>
-        <notes>Check http://www.llucax.hn.org/desarrollo/bife/ for details.</notes>
+        <notes>Check http://bife.llucax.hn.org/ for details.</notes>
         <provides type="class" name="HTML_Template_HIT"/>
         <filelist>
             <!-- PHP -->
@@ -31,8 +31,12 @@ like IT so every chunk must be in a separated file if you want to iterate it.
                 <file>index.php</file>
                 <dir name="hooks">
                     <file>body.tpl.html</file>
-                    <file>cell.tpl.html</file>
-                    <file>row.tpl.html</file>
+                    <file>link.tpl.html</file>
+                    <dir name="table">
+                        <file>body.tpl.html</file>
+                        <file>cell.tpl.html</file>
+                        <file>row.tpl.html</file>
+                    </dir>
                 </dir>
             </dir>
         </filelist>
