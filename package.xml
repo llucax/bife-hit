@@ -25,12 +25,16 @@ like IT so every chunk must be in a separated file if you want to iterate it.
         <provides type="class" name="HTML_Template_HIT"/>
         <filelist>
             <!-- PHP -->
-            <file role="php">HTML/Template/HIT.php</file>
+            <file role="php" install-as="HTML/Template/HIT.php">src/HTML/Template/HIT.php</file>
             <!-- DOC -->
-            <file role="doc">examples/hit.php</file>
-            <file role="doc">examples/hooks/body.tpl.html</file>
-            <file role="doc">examples/hooks/cell.tpl.html</file>
-            <file role="doc">examples/hooks/row.tpl.html</file>
+            <dir name="examples" role="doc">
+                <file>index.php</file>
+                <dir name="hooks">
+                    <file>body.tpl.html</file>
+                    <file>cell.tpl.html</file>
+                    <file>row.tpl.html</file>
+                </dir>
+            </dir>
         </filelist>
     </release>
     <deps>
