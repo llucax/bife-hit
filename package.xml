@@ -18,7 +18,7 @@ like IT so every chunk must be in a separated file if you want to iterate it.
     </maintainers>
 
     <release>
-        <version>1.0.0beta</version>
+        <version>1.0.0beta1</version>
         <date>2003-06-30</date>
         <state>beta</state>
         <notes>Check http://www.llucax.hn.org/desarrollo/bife/ for details.</notes>
